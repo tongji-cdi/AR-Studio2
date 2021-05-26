@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 8a9b805aa63dba746957cdde38baa951
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - keyScrollingSoundEffect: {instanceID: 0}
+  - itemSelectionSoundEffect: {instanceID: 0}
+  - normalItemFontMaterial: {fileID: 2100000, guid: 323309279f3626a4ba74c611555546c5,
+      type: 2}
+  - normalItemBackgroundMaterial: {fileID: 2100000, guid: b1b4721719ff98b4abf45943c7e47451,
+      type: 2}
+  - selectedItemFontMaterial: {fileID: 2100000, guid: 323309279f3626a4ba74c611555546c5,
+      type: 2}
+  - selectedItemBackgroundMaterial: {fileID: 2100000, guid: 01026a7aa911b8543bf3d8c45775fe16,
+      type: 2}
+  - pressedItemFontMaterial: {fileID: 2100000, guid: 323309279f3626a4ba74c611555546c5,
+      type: 2}
+  - pressedItemBackgroundMaterial: {fileID: 2100000, guid: 3d8563705655a4245b274398956f938f,
+      type: 2}
+  - disabledItemFontMaterial: {fileID: 2100000, guid: 01026a7aa911b8543bf3d8c45775fe16,
+      type: 2}
+  - disabledItemBackgroundMaterial: {fileID: 2100000, guid: b1b4721719ff98b4abf45943c7e47451,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

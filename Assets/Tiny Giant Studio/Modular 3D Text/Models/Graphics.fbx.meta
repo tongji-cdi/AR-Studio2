@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: 7783501d3631dfa4eb7f33038f872c35
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Button Baveled Larg
+    100004: Button Baveled Large Extra
+    100006: Button Baveled Medium
+    100008: Button Baveled Small
+    100010: Button Baveled Small Extra
+    100012: Button Simple Large
+    100014: Button Simple Large Extra
+    100016: Button Simple Large Extra.001
+    100018: Button Simple Large.001
+    100020: Button Simple Medium
+    100022: Button Simple Medium.001
+    100024: Button Simple Small
+    100026: Button Simple Small Extra
+    100028: Button Simple Small Extra.001
+    100030: Button Simple Small.001
+    100032: Button Baveled Large
+    100034: Button Sty;ozed 1 Medium
+    100036: Button Stylized 1 Large
+    100038: Button Stylized 1 Large Extra
+    100040: Button Stylized 1 Small
+    100042: Button Stylized 1 Small Extra
+    100044: Baveled Cube
+    100046: Handle Bar
+    100048: Slider Handle 10
+    100050: Arrow
+    100052: 'Baveled Arrow '
+    100054: Correct Icon
+    100056: ProgressBar Graphic
+    100058: ProgressBar Handle
+    400000: //RootNode
+    400002: Button Baveled Larg
+    400004: Button Baveled Large Extra
+    400006: Button Baveled Medium
+    400008: Button Baveled Small
+    400010: Button Baveled Small Extra
+    400012: Button Simple Large
+    400014: Button Simple Large Extra
+    400016: Button Simple Large Extra.001
+    400018: Button Simple Large.001
+    400020: Button Simple Medium
+    400022: Button Simple Medium.001
+    400024: Button Simple Small
+    400026: Button Simple Small Extra
+    400028: Button Simple Small Extra.001
+    400030: Button Simple Small.001
+    400032: Button Baveled Large
+    400034: Button Sty;ozed 1 Medium
+    400036: Button Stylized 1 Large
+    400038: Button Stylized 1 Large Extra
+    400040: Button Stylized 1 Small
+    400042: Button Stylized 1 Small Extra
+    400044: Baveled Cube
+    400046: Handle Bar
+    400048: Slider Handle 10
+    400050: Arrow
+    400052: 'Baveled Arrow '
+    400054: Correct Icon
+    400056: ProgressBar Graphic
+    400058: ProgressBar Handle
+    2100000: Material
+    2100002: No Name
+    2100004: Material.002
+    2300000: //RootNode
+    2300002: Button Baveled Larg
+    2300004: Button Baveled Large Extra
+    2300006: Button Baveled Medium
+    2300008: Button Baveled Small
+    2300010: Button Baveled Small Extra
+    2300012: Button Simple Large
+    2300014: Button Simple Large Extra
+    2300016: Button Simple Large Extra.001
+    2300018: Button Simple Large.001
+    2300020: Button Simple Medium
+    2300022: Button Simple Medium.001
+    2300024: Button Simple Small
+    2300026: Button Simple Small Extra
+    2300028: Button Simple Small Extra.001
+    2300030: Button Simple Small.001
+    2300032: Button Baveled Large
+    2300034: Button Sty;ozed 1 Medium
+    2300036: Button Stylized 1 Large
+    2300038: Button Stylized 1 Large Extra
+    2300040: Button Stylized 1 Small
+    2300042: Button Stylized 1 Small Extra
+    2300044: Baveled Cube
+    2300046: Handle Bar
+    2300048: Slider Handle 10
+    2300050: Arrow
+    2300052: 'Baveled Arrow '
+    2300054: Correct Icon
+    2300056: ProgressBar Graphic
+    2300058: ProgressBar Handle
+    3300000: //RootNode
+    3300002: Button Baveled Larg
+    3300004: Button Baveled Large Extra
+    3300006: Button Baveled Medium
+    3300008: Button Baveled Small
+    3300010: Button Baveled Small Extra
+    3300012: Button Simple Large
+    3300014: Button Simple Large Extra
+    3300016: Button Simple Large Extra.001
+    3300018: Button Simple Large.001
+    3300020: Button Simple Medium
+    3300022: Button Simple Medium.001
+    3300024: Button Simple Small
+    3300026: Button Simple Small Extra
+    3300028: Button Simple Small Extra.001
+    3300030: Button Simple Small.001
+    3300032: Button Baveled Large
+    3300034: Button Sty;ozed 1 Medium
+    3300036: Button Stylized 1 Large
+    3300038: Button Stylized 1 Large Extra
+    3300040: Button Stylized 1 Small
+    3300042: Button Stylized 1 Small Extra
+    3300044: Baveled Cube
+    3300046: Handle Bar
+    3300048: Slider Handle 10
+    3300050: Arrow
+    3300052: 'Baveled Arrow '
+    3300054: Correct Icon
+    3300056: ProgressBar Graphic
+    3300058: ProgressBar Handle
+    4300000: Button
+    4300002: Cube
+    4300004: Button Simple Large
+    4300006: Button Simple Medium
+    4300008: Button Simple Small
+    4300010: Button Simple Small Extra
+    4300012: Button Simple Large Extra
+    4300014: Button Simple Large.001
+    4300016: Button Simple Medium.001
+    4300018: Button Simple Small.001
+    4300020: Button Simple Small Extra.001
+    4300022: Button Simple Large Extra.001
+    4300024: Button Baveled Larg
+    4300026: Button Baveled Medium
+    4300028: Button Baveled Small
+    4300030: Button Baveled Small Extra
+    4300032: Button Baveled Large Extra
+    4300034: Button Stylized 1 Large
+    4300036: Button Sty;ozed 1 Medium
+    4300038: Button Stylized 1 Small
+    4300040: Button Stylized 1 Small Extra
+    4300042: Button Stylized 1 Large Extra
+    4300044: Button Baveled Large
+    4300046: Baveled Cube
+    4300048: Slider Handle 10
+    4300050: Handle Bar
+    4300052: Arrow
+    4300054: 'Baveled Arrow '
+    4300056: Correct Icon
+    4300058: ProgressBar Graphic
+    4300060: ProgressBar Handle
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.5
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

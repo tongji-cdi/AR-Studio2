@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b6a20c10e9bdbb4498a43fdd9960739, type: 3}
+  m_Name: Add Gravity
+  m_EditorClassIdentifier: 
+  enableGravity: 1
+  addRandomForce: 0
+  horizontalForcePower: 1
+  verticalForcePower: 1
+  forceDirectionMinimum: {x: 0, y: 0, z: 0}
+  forceDirectionMaximum: {x: 360, y: 360, z: 360}
+  physicMaterial: {fileID: 13400000, guid: 2e93eae5acae1df45a7e2ed404617396, type: 2}

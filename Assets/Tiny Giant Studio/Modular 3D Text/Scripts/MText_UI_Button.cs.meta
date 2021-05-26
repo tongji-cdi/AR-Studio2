@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: e3c8ebf863e545c4fb467a57d58a2e9e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - text: {instanceID: 0}
+  - background: {instanceID: 0}
+  - normalFontMaterial: {fileID: 2100000, guid: 323309279f3626a4ba74c611555546c5,
+      type: 2}
+  - normalBackgroundMaterial: {fileID: 2100000, guid: b1b4721719ff98b4abf45943c7e47451,
+      type: 2}
+  - selectedFontMaterial: {fileID: 2100000, guid: 323309279f3626a4ba74c611555546c5,
+      type: 2}
+  - selectedBackgroundMaterial: {fileID: 2100000, guid: 01026a7aa911b8543bf3d8c45775fe16,
+      type: 2}
+  - pressedFontMaterial: {fileID: 2100000, guid: 323309279f3626a4ba74c611555546c5,
+      type: 2}
+  - pressedBackgroundMaterial: {fileID: 2100000, guid: 3d8563705655a4245b274398956f938f,
+      type: 2}
+  - disabledFontMaterial: {fileID: 2100000, guid: b1b4721719ff98b4abf45943c7e47451,
+      type: 2}
+  - disabledBackgroundMaterial: {fileID: 2100000, guid: b1b4721719ff98b4abf45943c7e47451,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

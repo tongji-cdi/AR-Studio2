@@ -1,0 +1,497 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ac03f583a899fd43ba438d84cadfb45, type: 3}
+  m_Name: LeagueMono-ExtraBold
+  m_EditorClassIdentifier: 
+  characters:
+  - character: 33
+    prefab: {fileID: 100190, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.42368004
+    glyphIndex: 0
+  - character: 34
+    prefab: {fileID: 100192, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.46248004
+    glyphIndex: 0
+  - character: 35
+    prefab: {fileID: 100194, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.50552005
+    glyphIndex: 0
+  - character: 36
+    prefab: {fileID: 100196, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.50208
+    glyphIndex: 0
+  - character: 37
+    prefab: {fileID: 100198, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.50936
+    glyphIndex: 0
+  - character: 38
+    prefab: {fileID: 100200, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49991998
+    glyphIndex: 0
+  - character: 39
+    prefab: {fileID: 100202, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.42192003
+    glyphIndex: 0
+  - character: 40
+    prefab: {fileID: 100204, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.58064
+    glyphIndex: 0
+  - character: 41
+    prefab: {fileID: 100206, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.34848002
+    glyphIndex: 0
+  - character: 42
+    prefab: {fileID: 100208, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.45432
+    glyphIndex: 0
+  - character: 43
+    prefab: {fileID: 100210, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.47312003
+    glyphIndex: 0
+  - character: 44
+    prefab: {fileID: 100212, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.41
+    glyphIndex: 0
+  - character: 45
+    prefab: {fileID: 100214, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.45176002
+    glyphIndex: 0
+  - character: 48
+    prefab: {fileID: 100216, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.50424
+    glyphIndex: 0
+  - character: 49
+    prefab: {fileID: 100218, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.47736
+    glyphIndex: 0
+  - character: 50
+    prefab: {fileID: 100220, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49144003
+    glyphIndex: 0
+  - character: 51
+    prefab: {fileID: 100222, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49528
+    glyphIndex: 0
+  - character: 52
+    prefab: {fileID: 100224, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.4944
+    glyphIndex: 0
+  - character: 53
+    prefab: {fileID: 100226, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.48839998
+    glyphIndex: 0
+  - character: 54
+    prefab: {fileID: 100228, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49271998
+    glyphIndex: 0
+  - character: 55
+    prefab: {fileID: 100230, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.48119998
+    glyphIndex: 0
+  - character: 56
+    prefab: {fileID: 100232, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49696
+    glyphIndex: 0
+  - character: 57
+    prefab: {fileID: 100234, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49271998
+    glyphIndex: 0
+  - character: 58
+    prefab: {fileID: 100236, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.43472
+    glyphIndex: 0
+  - character: 59
+    prefab: {fileID: 100238, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.43472
+    glyphIndex: 0
+  - character: 60
+    prefab: {fileID: 100240, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.47736
+    glyphIndex: 0
+  - character: 61
+    prefab: {fileID: 100242, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.47136003
+    glyphIndex: 0
+  - character: 62
+    prefab: {fileID: 100244, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.47480002
+    glyphIndex: 0
+  - character: 63
+    prefab: {fileID: 100246, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49528
+    glyphIndex: 0
+  - character: 64
+    prefab: {fileID: 100248, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.50936
+    glyphIndex: 0
+  - character: 91
+    prefab: {fileID: 100250, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.47264
+    glyphIndex: 0
+  - character: 92
+    prefab: {fileID: 100252, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.47264
+    glyphIndex: 0
+  - character: 93
+    prefab: {fileID: 100254, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.42496
+    glyphIndex: 0
+  - character: 94
+    prefab: {fileID: 100256, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.46416003
+    glyphIndex: 0
+  - character: 95
+    prefab: {fileID: 100258, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.50464004
+    glyphIndex: 0
+  - character: 96
+    prefab: {fileID: 100260, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.44624
+    glyphIndex: 0
+  - character: 65
+    prefab: {fileID: 100262, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.5076
+    glyphIndex: 0
+  - character: 97
+    prefab: {fileID: 100264, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.51104003
+    glyphIndex: 0
+  - character: 98
+    prefab: {fileID: 100266, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49224
+    glyphIndex: 0
+  - character: 66
+    prefab: {fileID: 100268, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49656
+    glyphIndex: 0
+  - character: 99
+    prefab: {fileID: 100270, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.50248
+    glyphIndex: 0
+  - character: 67
+    prefab: {fileID: 100272, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.50632
+    glyphIndex: 0
+  - character: 100
+    prefab: {fileID: 100274, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.47864
+    glyphIndex: 0
+  - character: 68
+    prefab: {fileID: 100276, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.50848
+    glyphIndex: 0
+  - character: 46
+    prefab: {fileID: 100278, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.43472
+    glyphIndex: 0
+  - character: 69
+    prefab: {fileID: 100280, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.4876
+    glyphIndex: 0
+  - character: 101
+    prefab: {fileID: 100282, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49400002
+    glyphIndex: 0
+  - character: 70
+    prefab: {fileID: 100284, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.488
+    glyphIndex: 0
+  - character: 102
+    prefab: {fileID: 100286, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49952003
+    glyphIndex: 0
+  - character: 47
+    prefab: {fileID: 100288, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.47264
+    glyphIndex: 0
+  - character: 71
+    prefab: {fileID: 100290, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49991998
+    glyphIndex: 0
+  - character: 103
+    prefab: {fileID: 100292, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.50936
+    glyphIndex: 0
+  - character: 104
+    prefab: {fileID: 100294, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.48632002
+    glyphIndex: 0
+  - character: 72
+    prefab: {fileID: 100296, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.48928
+    glyphIndex: 0
+  - character: 73
+    prefab: {fileID: 100298, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.47264
+    glyphIndex: 0
+  - character: 105
+    prefab: {fileID: 100300, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.48336002
+    glyphIndex: 0
+  - character: 74
+    prefab: {fileID: 100302, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.46672
+    glyphIndex: 0
+  - character: 106
+    prefab: {fileID: 100304, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.47008
+    glyphIndex: 0
+  - character: 107
+    prefab: {fileID: 100306, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.51952
+    glyphIndex: 0
+  - character: 75
+    prefab: {fileID: 100308, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.53232
+    glyphIndex: 0
+  - character: 108
+    prefab: {fileID: 100310, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49271998
+    glyphIndex: 0
+  - character: 76
+    prefab: {fileID: 100312, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49736
+    glyphIndex: 0
+  - character: 77
+    prefab: {fileID: 100314, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.5068
+    glyphIndex: 0
+  - character: 109
+    prefab: {fileID: 100316, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.51104003
+    glyphIndex: 0
+  - character: 78
+    prefab: {fileID: 100318, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49016
+    glyphIndex: 0
+  - character: 110
+    prefab: {fileID: 100320, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49056002
+    glyphIndex: 0
+  - character: 79
+    prefab: {fileID: 100322, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49656
+    glyphIndex: 0
+  - character: 111
+    prefab: {fileID: 100324, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49864003
+    glyphIndex: 0
+  - character: 112
+    prefab: {fileID: 100326, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49183998
+    glyphIndex: 0
+  - character: 80
+    prefab: {fileID: 100328, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.4948
+    glyphIndex: 0
+  - character: 113
+    prefab: {fileID: 100330, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.48839998
+    glyphIndex: 0
+  - character: 81
+    prefab: {fileID: 100332, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.51272005
+    glyphIndex: 0
+  - character: 82
+    prefab: {fileID: 100334, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49608
+    glyphIndex: 0
+  - character: 114
+    prefab: {fileID: 100336, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.50632
+    glyphIndex: 0
+  - character: 115
+    prefab: {fileID: 100338, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.488
+    glyphIndex: 0
+  - character: 83
+    prefab: {fileID: 100340, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49912
+    glyphIndex: 0
+  - character: 116
+    prefab: {fileID: 100342, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.47904
+    glyphIndex: 0
+  - character: 84
+    prefab: {fileID: 100344, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.48968002
+    glyphIndex: 0
+  - character: 117
+    prefab: {fileID: 100346, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.47952
+    glyphIndex: 0
+  - character: 85
+    prefab: {fileID: 100348, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.49271998
+    glyphIndex: 0
+  - character: 118
+    prefab: {fileID: 100350, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.48968002
+    glyphIndex: 0
+  - character: 86
+    prefab: {fileID: 100352, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.50848
+    glyphIndex: 0
+  - character: 119
+    prefab: {fileID: 100354, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.51104003
+    glyphIndex: 0
+  - character: 87
+    prefab: {fileID: 100356, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.514
+    glyphIndex: 0
+  - character: 120
+    prefab: {fileID: 100358, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.50464004
+    glyphIndex: 0
+  - character: 88
+    prefab: {fileID: 100360, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.50976
+    glyphIndex: 0
+  - character: 121
+    prefab: {fileID: 100362, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.50552005
+    glyphIndex: 0
+  - character: 89
+    prefab: {fileID: 100364, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.51064
+    glyphIndex: 0
+  - character: 122
+    prefab: {fileID: 100366, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.47736
+    glyphIndex: 0
+  - character: 90
+    prefab: {fileID: 100368, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.48504
+    glyphIndex: 0
+  - character: 123
+    prefab: {fileID: 100370, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.46712
+    glyphIndex: 0
+  - character: 124
+    prefab: {fileID: 100372, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.41296002
+    glyphIndex: 0
+  - character: 125
+    prefab: {fileID: 100374, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.4488
+    glyphIndex: 0
+  - character: 126
+    prefab: {fileID: 100376, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+    meshPrefab: {fileID: 0}
+    spacing: 0.47992
+    glyphIndex: 0
+  fontSet: {fileID: 100124, guid: 2b21cb350bed8964195e6daceda2bf7d, type: 3}
+  overwriteOldSet: 1
+  monoSpaceFont: 0
+  useUpperCaseLettersIfLowerCaseIsMissing: 1
+  emptySpaceSpacing: 0.4848646
+  characterSpacing: 1
+  rotationFix: {x: 0, y: 0, z: 0}
+  positionFix: {x: 0, y: 0, z: 0}
+  scaleFix: {x: 0, y: 0, z: 0}
+  enableKerning: 1
+  kerningMultiplier: 1
+  kernTable: []

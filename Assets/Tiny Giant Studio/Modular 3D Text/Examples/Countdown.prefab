@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6410492937242293903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6410492937242293896}
+  - component: {fileID: 6410492937242293902}
+  - component: {fileID: 6410492937242293897}
+  m_Layer: 0
+  m_Name: Countdown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6410492937242293896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6410492937242293903}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &6410492937242293902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6410492937242293903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564494fa003cb044e83a3ad81d005262, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modular3DText: {fileID: 6410492937242293897}
+  textAfterCountdownEnds: 
+  duration: 10
+  startCountdownOnStart: 1
+--- !u!114 &6410492937242293897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6410492937242293903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d100e06f4a0744c8728e86700b5472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: 
+  lineList:
+  - 
+  oldLineList:
+  - 
+  autoCreateInEditor: 1
+  autoCreateInPlayMode: 0
+  autoSaveMesh: 0
+  font: {fileID: 11400000, guid: 775923221f3b83249b94671a5563c5ee, type: 2}
+  oldFont: {fileID: 11400000, guid: 775923221f3b83249b94671a5563c5ee, type: 2}
+  material: {fileID: 2100000, guid: 323309279f3626a4ba74c611555546c5, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 323309279f3626a4ba74c611555546c5, type: 2}
+  fontSize: {x: 5, y: 5, z: 5}
+  oldFontSize: {x: 5, y: 5, z: 5}
+  characterSpacingInput: 1
+  oldCharacterSpacingInput: 1
+  lineSpacingInput: 1.75
+  oldLinespacingInput: 1.75
+  alignCenter: 1
+  oldAlignCenter: 1
+  alignLeft: 0
+  oldAlignLeft: 0
+  alignRight: 0
+  oldAlignRight: 0
+  alignMiddle: 1
+  oldAlignMiddle: 1
+  alignBottom: 0
+  oldAlignBottom: 0
+  alignTop: 0
+  oldAlignTop: 0
+  height: 1
+  length: 5
+  oldLength: 5
+  depth: 1
+  typingEffects:
+  - effect: {fileID: 11400000, guid: d5f2370f6b3fe1d46924c9b5ea7a907f, type: 2}
+    duration: 0.5
+  deletingEffects:
+  - effect: {fileID: 11400000, guid: ad554e55cedc5124c87a54f5ead28092, type: 2}
+    duration: 0.5
+  pooling: 0
+  combineMeshInEditor: 0
+  dontCombineInEditorAnyway: 0
+  combineMeshDuringRuntime: 0
+  canBreakOutermostPrefab: 0
+  assetPath: 

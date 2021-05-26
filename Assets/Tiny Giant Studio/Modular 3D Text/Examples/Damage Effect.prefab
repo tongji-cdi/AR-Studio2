@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2720427389086204627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2720427389086204624}
+  - component: {fileID: 2720427389086204639}
+  m_Layer: 0
+  m_Name: Text (M3D)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2720427389086204624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2720427389086204627}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2720427389173190369}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2720427389086204639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2720427389086204627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d100e06f4a0744c8728e86700b5472, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: 
+  lineList:
+  - 
+  oldLineList:
+  - 
+  characterObjectList: []
+  autoCreateInEditor: 1
+  autoCreateInPlayMode: 0
+  autoSaveMesh: 0
+  font: {fileID: 11400000, guid: 1ace190024086c64180b9311d4e3c634, type: 2}
+  oldFont: {fileID: 11400000, guid: 1ace190024086c64180b9311d4e3c634, type: 2}
+  material: {fileID: 2100000, guid: 3d8563705655a4245b274398956f938f, type: 2}
+  oldMaterial: {fileID: 2100000, guid: 3d8563705655a4245b274398956f938f, type: 2}
+  fontSize: {x: 3, y: 3, z: 2}
+  oldFontSize: {x: 3, y: 3, z: 2}
+  characterSpacingInput: 1
+  oldCharacterSpacingInput: 1
+  lineSpacingInput: 1
+  oldLinespacingInput: 1
+  layoutStyle: 0
+  alignCenter: 1
+  oldAlignCenter: 1
+  alignLeft: 0
+  oldAlignLeft: 0
+  alignRight: 0
+  oldAlignRight: 0
+  alignMiddle: 1
+  oldAlignMiddle: 1
+  alignBottom: 0
+  oldAlignBottom: 0
+  alignTop: 0
+  oldAlignTop: 0
+  circularAlignmentRadius: 10
+  oldCircularAlignmentRadius: 10
+  circularAlignmentAngle: {x: 90, y: -90}
+  oldCircularAlignmentAngle: {x: 90, y: -90}
+  height: 2
+  length: 15
+  oldLength: 15
+  depth: 1
+  typingEffects: []
+  deletingEffects: []
+  customDeleteAfterDuration: 0
+  deleteAfter: 1
+  repositionOldCharacters: 1
+  pooling: 0
+  combineMeshInEditor: 1
+  dontCombineInEditorAnyway: 0
+  combineMeshDuringRuntime: 1
+  canBreakOutermostPrefab: 0
+  assetPath: 
+  meshPaths: []
+--- !u!1 &2720427389173190372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2720427389173190369}
+  - component: {fileID: 2720427389173190373}
+  m_Layer: 0
+  m_Name: Damage Effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2720427389173190369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2720427389173190372}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.3, z: 0.08}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2720427389086204624}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2720427389173190373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2720427389173190372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67ae51a71b9068e42ae7987604396f82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modular3DText: {fileID: 2720427389086204639}
+  textHolder: {fileID: 2720427389086204624}
+  module: {fileID: 11400000, guid: 7cba482710dbbde46901c6d11c9c4496, type: 2}
