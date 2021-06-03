@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.UI; //使用UI相关的组件需要引用该命名空间
 using System;
 
 public class GameManager : MonoBehaviour
@@ -12,8 +12,8 @@ public class GameManager : MonoBehaviour
     public GameObject m_userUI;
     public GameObject m_popup;
 
-    public int amount = 20;
-    int counter = 0;
+    public int amount = 20; //设置宝石数量
+    int counter = 0; //游戏时用来计数
 
     // Start is called before the first frame update
     void Start()
@@ -30,12 +30,14 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
+        counter = amount;
+
         m_userUI.SetActive(false);
         m_StateText.gameObject.SetActive(true);
         // 更新计数UI
-        m_StateText.text = "剩余宝石：" + amount + " 个";
+        m_StateText.text = "剩余宝石：" + counter + " 个";
 
-        for (int i=0;i<amount;i++)
+        for (int i=0;i< counter; i++)
         {
             var x = UnityEngine.Random.Range(-1f,7f);
             var y = UnityEngine.Random.Range(-1.5f,0.5f);
@@ -51,12 +53,12 @@ public class GameManager : MonoBehaviour
 
     void GetOne(object sender, EventArgs e)
     {
-        amount--;
+        counter--;
 
         // 更新计数UI
-        m_StateText.text = "剩余宝石：" + amount + " 个";
+        m_StateText.text = "剩余宝石：" + counter + " 个";
 
-        if (amount ==0)
+        if (counter == 0)
         {
             // 结束游戏
             EndGame();
