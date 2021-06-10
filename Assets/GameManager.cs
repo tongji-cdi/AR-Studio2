@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
             var diamond = GameObject.Instantiate(m_diamondPrefab, m_DiamondSpacet.transform, false);
             diamond.transform.localPosition = new Vector3(x, y, z);
 
-            diamond.GetComponent<diamondManager>().getDiamondEvent += GetOne;
+            diamond.GetComponent<diamondManager>().getDiamondEvent += GetOne; //绑定事件处理方法
 
         }
     }
