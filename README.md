@@ -1,4 +1,34 @@
+## 场景说明
+
+示例项目中的几个场景具备不同的功能，各组同学可以按照需求拷贝相关脚本内容用于自己的项目。
+
+### 1. CDI_UI_01
+
+- billboard 公告牌（UI面板永远朝向MainCamera）
+  - 指示线（LineRenderer）
+- 3D字体、交互控件：Modular 3D Text
+- World Space UI 及交互事件
+- Textured Map 开关（方便真机调试）
+
+### 2. CDI_Script_02
+
+- 3D对象交互（与3D模型交互）
+- Prefab实例化（通过代码在场景中生成3D内容）
+- C# 事件
+
+### 3. GongfangSceneNew_03
+
+- 物体持续旋转
+- 视频视图：在空间中播放视频内容
+
+### 4. CDI_Mask_04
+
+- 透明对象作为遮罩：通过这种方式模拟真实的物体遮挡效果
+
+
+
 ## 透明遮挡效果
+
 > 示例场景：CDI_Mask_04
 
 1.导入 Package: [HidingVirtualContentWhenBuild.unitypackage](https://github.com/tongji-cdi/AR-Studio2/blob/main/utilities/HidingVirtualContentWhenBuild.unitypackage)
