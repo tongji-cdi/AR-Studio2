@@ -1,46 +1,6 @@
-# Immersal SDK Samples
-In this repository you will find sample projects that use our [Immersal SDK](https://developers.immersal.com/ "Register and download SDK"), demonstrating some of the functionalities of the Augmented Reality SDK. The currently included examples are listed below:
-
-## MultimapSampleScene
-A simple scene that localizes the device using previously generated (embedded) maps and displays 3D objects relative to the maps. You need to capture and download your own maps to demonstrate this functionality, see **MappingApp** below.
-
-## ContentPlacementSample
-Allows for dropping objects in the AR space. The locations are saved locally, but not persisted across devices.
-
-### Content.json
-
-Q: Oh noes! I ran ContentPlacementSample locally on the Unity Editor, and got a `content.json not found` error.
-
-A: Relax, the `content.json` is generated when the app is run on an Android or iOS device.
-
-## NavigationSample
-An AR wayfinding example.
-
-## MappingApp
-A full-featured app for mapping spaces using an iOS or Android device.
-
-Also available pre-built on [App Store](https://apps.apple.com/app/immersal-mapper/id1466607906) and [Play Store](https://play.google.com/store/apps/details?id=com.immersal.sdk.mapper).
-
-# Compatibility
-
-- Unity 2019.4 LTS
-- AR Foundation 4
-
-Note: Earlier versions of Unity and AR Foundation will still work with minimal script changes.
-
-# Installation steps
-
-1. Clone this repository
-```
-git clone https://github.com/immersal/arcloud-sdk-samples.git
-```
-2. Download our Unity Plugin (`ImmersalSDKvX_X_X.unitypackage`) from [here](https://developers.immersal.com/)
-3. Launch Unity, click on **Open Project**, navigate to the `arcloud-sdk-samples` folder on your computer and press Apply/OK.
-4. Click on **Assets -> Import Package -> Custom Package** and load the `ImmersalSDKvX_X_X.unitypackage`.
-
-Optional step:
-
-5. Click on **Window -> Package Manager** and install `AR Foundation`, `ARCore XR Plugin`, `ARKit XR Plugin` and `TextMesh Pro` if required.
-
-Please visit our [Developer Documentation](https://developers.immersal.com/docs/ "SDK Documentation") for more detailed instructions as to how to use these examples.
-
+## 透明遮挡效果
+1. 导入 Package: [HidingVirtualContentWhenBuild.unitypackage](https://github.com/tongji-cdi/AR-Studio2/blob/main/utilities/HidingVirtualContentWhenBuild.unitypackage)
+2. 在 *Project* 面板中点击 *UniversalRenderPipelineAsset* （可以通过搜索找到），在Inspector中按照下图进行设置。
+3. 在 *Project* 面板中点击 *UniversalRenderPipelineAsset_Renderer* （可以通过搜索找到），在Inspector中按照下图进行设置。
+4. 添加透明遮罩。 新建方块或者其他模型，将 Material 设置为 *Shdaer Graphs_unlit* ,并将其Layer设置为*Mask* （第一次操作需要点击 add layer 新建）。可以查看名为*MaskWall*的Prefabs 的设置。
+5. 查看效果，该物体便具体透明遮挡的功能。
