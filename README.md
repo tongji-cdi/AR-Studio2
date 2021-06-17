@@ -31,7 +31,7 @@
 
 > 示例场景：CDI_Mask_04
 
-1.导入 Package: [HidingVirtualContentWhenBuild.unitypackage](https://github.com/tongji-cdi/AR-Studio2/blob/main/utilities/HidingVirtualContentWhenBuild.unitypackage)
+1.导入 Package: [TransparentMask.unitypackage](https://github.com/tongji-cdi/AR-Studio2/blob/main/ForTutorial/TransparentMask.unitypackage)
 
 2.在 *Project* 面板中点击 *UniversalRenderPipelineAsset* （可以通过搜索找到），在Inspector中按照下图进行设置。
 
